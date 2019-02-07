@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<title>Starwars</title>
+	<script type="text/javascript">
+		var isChrome = /Chrome/.test(navigator.userAgent) && /Google Inc/.test(navigator.vendor);
+	    if(!isChrome){
+	      $('#iframeAudio').remove()
+	    }
+	 	 else{
+	     $('#playAudio').remove()
+	 	}
+	</script>
+	
+</head>
+<body>
+	<p class="intro">A long time ago in a lorem ipsum far, far away...</p>
+	<div class="colUn">
+		<marquee direction="up" scrollamount="4">
+		<img src="logo.png" class="intpro" height="60px" /><br/>
+		Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ac augue in turpis fringilla maximus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Aliquam aliquam felis id pretium auctor. Proin elementum, ipsum varius lobortis congue, nisi mauris eleifend dolor, et tempus tortor tellus quis mauris. Cras sodales lacus vitae convallis blandit. Donec et diam quis sapien euismod ultricies. Curabitur iaculis porta justo, vitae finibus massa imperdiet quis. Mauris lorem risus, ornare sit amet risus ut, imperdiet elementum nulla. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Curabitur non mattis quam.
+
+		Ut blandit turpis in orci laoreet, sit amet elementum nisi molestie. Integer a nunc et mauris molestie sodales ut id enim. Maecenas nec posuere ipsum, sit amet consequat sapien. Pellentesque auctor tellus vel tempor rutrum. In in neque ut justo condimentum rutrum nec quis diam. Nunc in eros tellus. Sed in ante ut magna egestas pellentesque et nec lacus. Sed laoreet sollicitudin sem, id accumsan quam venenatis at. Quisque dictum tempor lectus, sit amet faucibus quam dictum accumsan.
+
+		Sed commodo vestibulum ante. Praesent tincidunt dui aliquet nisl tristique scelerisque eget sit amet quam. Suspendisse eget blandit sapien. Donec porttitor magna nec rutrum bibendum. Nullam fringilla mollis libero, a malesuada mauris facilisis sit amet. Ut sagittis at urna et aliquet. Sed quis nibh magna. Donec bibendum magna ex, ut feugiat felis porttitor ut. Fusce tincidunt laoreet ante, a tincidunt lacus finibus eget. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Cras vehicula sed lectus quis condimentum. Morbi et magna sed eros ornare sagittis in sit amet elit. Sed ut tellus tellus. Duis hendrerit sapien magna, vitae tempor eros cursus quis.</marquee>
+	</div>
+	 	<!--<audio autoplay loop src="musique.mp3">
+	 	<iframe src="musique.mp3" allow="autoplay" style="display:none" id="iframeAudio">
+		</iframe> 
+		 </audio>-->
+</body>
+</html>
